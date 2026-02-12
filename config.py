@@ -14,9 +14,9 @@ import os
 # Telegram Bot Credentials
 # ==============================
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-API_ID = int(os.environ.get("API_ID", "0"))
-API_HASH = os.environ.get("API_HASH", "")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8593756665:AAGXAwKBa8IVYueUkrWKcJKDUeRJPgrO1y8")
+API_ID = int(os.environ.get("API_ID", "23806659"))
+API_HASH = os.environ.get("API_HASH", "a4ed7645677301271596c144ded2ad57")
 
 
 # ==============================
@@ -31,7 +31,7 @@ ADMINS = [int(admin) for admin in os.environ.get("ADMINS", "").split(",") if adm
 # Database Configuration
 # ==============================
 
-DB_URI = os.environ.get("DB_URI", "")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://tellylover023_db_user:rwlImZSl3vzUAe8B@cluster0.sllsnx3.mongodb.net/?appName=Cluster0")
 DB_NAME = os.environ.get("DB_NAME", "SaveRestricted2")
 
 
